@@ -243,6 +243,8 @@ body {
 	font-weight: normal;
 	color: #000000;
 	line-height:1.3em;
+	width: 84;
+	height: 84;
 }
 ul{
     list-style-type:none;
