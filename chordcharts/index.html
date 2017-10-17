@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Vollkorn:700" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="fr" />
+    <link rel="shortcut icon" href="static/guitarejazzmanouche.ico">
+    <title>Γιάφ Γιούφ</title>
+        <link type="text/css" rel="stylesheet" media="all" href="static/deafault.css" />
+
+    <link type="text/css" rel="stylesheet" media="all" href="static/aggregated.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="static/extra_css.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="static/jquery-ui.custom.css" />
+    <style>
+    html,
+    body {
+        background: white;
+    }
+
+    #logo-header {
+        background: none;
+    }
+
+    @media print {
+        .no-print {
+            display: none;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="tetiere">
+
+    </div>
+
+    <div>
+        <h1 style=" font-family: 'Vollkorn', serif; font-size: 50px; line-height: 72px; padding:0;">Γιάφ Γιούφ</h1>
+    </div>
+    <div style="font-family: 'Vollkorn', serif; font-size: 25px; line-height:25px;">Παπαγκίκα Μαρίκα (1928) </div>
+     <div class="clearfix" style="width:770px;">
+        <div class="floatLeft realbook realbook-smaller">
+            <sup>4</sup>/<sub>4</sub>​ θ=165 </div>
+    </div> 
+    <div class="relative">
+        <div id="watermark" class="absolute" style="">
+            Made in Guitarejazzmanouche.com
+        </div>
+    </div>
+     <div class="lsheet-wrapper marg10t">
+        <div class="realbook parts" style="width:770px;">ΑΒΑΓΑΑ</div>
+        <div class="realbook">
+            <div class="lead-sheet" style="margin-top:36px;width:770px;height:583.2px;">
+               <div class="part-indicator" style="top:0px;left:-45px;">Α</div>        <div class="cell" style=height:72px;width:96px;top:0px;left:0px;">C</div>         <div class="cell" style=height:72px;width:96px;top:0px;left:96px;">F</div>         <div class="cell" style=height:72px;width:96px;top:0px;left:192px;">A</div>         <div class="cell" style=height:72px;width:96px;top:0px;left:288px;">D&#924</div>         <div class="cell" style=height:72px;width:96px;top:0px;left:384px;">C</div>         <div class="cell" style=height:72px;width:96px;top:0px;left:480px;">F</div>         <div class="cell" style=height:72px;width:96px;top:0px;left:576px;">A</div>         <div class="cell" style=height:72px;width:96px;top:0px;left:672px;">D&#924</div> <div class="part-indicator" style="top:144px;left:-45px;">Β</div>        <div class="cell" style=height:72px;width:96px;top:144px;left:0px;">D&#924</div>         <div class="cell" style=height:72px;width:96px;top:144px;left:96px;">%</div>         <div class="cell" style=height:72px;width:96px;top:144px;left:192px;">%</div>         <div class="cell" style=height:72px;width:96px;top:144px;left:288px;">%</div>         <div class="cell" style=height:72px;width:96px;top:144px;left:384px;">%</div>         <div class="cell" style=height:72px;width:96px;top:144px;left:480px;">%</div>         <div class="cell" style=height:72px;width:96px;top:144px;left:576px;">%</div>         <div class="cell" style=height:72px;width:96px;top:144px;left:672px;">%</div> <div class="part-indicator" style="top:288px;left:-45px;">Γ</div>        <div class="cell" style=height:72px;width:96px;top:288px;left:0px;">D&#924</div>         <div class="cell" style=height:72px;width:96px;top:288px;left:96px;">%</div>         <div class="cell" style=height:72px;width:96px;top:288px;left:192px;">C</div>         <div class="cell" style=height:72px;width:96px;top:288px;left:288px;">F</div>         <div class="cell" style=height:72px;width:96px;top:288px;left:384px;">D&#924</div>         <div class="cell" style=height:72px;width:96px;top:288px;left:480px;">%</div>         <div class="cell" style=height:72px;width:96px;top:288px;left:576px;">C</div>         <div class="cell" style=height:72px;width:96px;top:288px;left:672px;">F</div> 
+            </div>
+            <style>
+            .diagonal {
+                width: 120px;
+                top: 36px;
+                left: -12px;
+                transform: rotate(323deg);
+                -moz-transform: rotate(323deg);
+                -webkit-transform: rotate(323deg);
+                -o-transform: rotate(323deg);
+                filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.8, M12=--0.6, M21=-0.6, M22=0.8);
+            }
+            </style>
+        </div>
+    </div>
+    </div>    <script type="text/javascript" src="static/jquery.js"></script>
+    <script type="text/javascript" src="static/jquery-ui.js"></script>
+    <script type="text/javascript" src="static/utils.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#languages-box a').click(function() {
+            Gjm.utils.redirectToNewDomain($(this).attr('href'));
+            return false;
+        });
+        $('.login-field').focus(function() {
+            $(this).data('default', $(this).val()).val('');
+            $(this).unbind('focus');
+            return false;
+        });
+        $('.login-field').blur(function() {
+            if ($(this).val() == '')
+                $(this).val($(this).data('default'));
+            $(this).focus('focus', function() {
+                if ($(this).val() == $(this).data('default'))
+                    $(this).val('');
+            });
+            return false;
+        });
+        $('.submit-button').button({ icons: { primary: 'ui-icon-circle-check' } });
+        $('.my-grilles-btn').button({ icons: { primary: 'ui-icon-script' } });
+        $(".delete-button").button({ icons: { primary: 'ui-icon-trash' } });
+        $(".edit-button").button({ icons: { primary: 'ui-icon-pencil' } });
+        $('.logout-btn').button({ icons: { primary: 'ui-icon-power' } });
+        $('.add-lsheet-btn').button({ icons: { primary: 'ui-icon-plusthick' } });
+        $("#watermark").css({ opacity: 0.1 });
+        $("#radio").buttonset();
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+        $(".print-button").button({ icons: { primary: 'ui-icon-print' } });
+        $(".add-button").button({ icons: { primary: 'ui-icon-plus' } });
+        $(".print-button").click(function() {
+            window.print();
+            return false;
+        });
+        var force_interline = '0';
+        $(".add-interline").click(function() {
+            force_interline = force_interline == '1' ? '0' : '1';
+            $(this).find('.ui-button-text').text('Sans Interligne');
+            $('.transposer').change();
+            return false;
+        });
+        $('.transposer').change(function() {
+            var $transposer = $(this);
+            var lsheet_id = $transposer.attr('id').split('-')[1];
+            var tona = $transposer.val();
+            $.get('/print/lsheet_id/' + lsheet_id + '/tona/' + tona + '/interline/' + force_interline, function(data) {
+                $('.lsheet-wrapper').html(data);
+            });
+        });
+    });
+    </script>
+    <script type="text/javascript" src="http://www.google.fr/cse/brand?form=cse-search-box&lang=fr"></script>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(["_setAccount", "UA-12555833-4"]);
+    _gaq.push(["_trackPageview"]);
+
+    (function() {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+</body></html>
