@@ -1,0 +1,15 @@
+#watermark{
+	display:none;
+	left: 50%;
+	bottom: -250px;
+	margin-left: -130px;
+	opacity: 0.1;
+	z-index: 200;
+	font-size: 23px;
+	color: #B6B6B6;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+}
+#page-body img{
+	max-width:100%;
+}
